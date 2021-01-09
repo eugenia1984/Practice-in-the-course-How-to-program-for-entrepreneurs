@@ -1,0 +1,179 @@
+/* Formateo lo que viene por defecto en los navegadores */
+* {
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* Doy estilo al BODY */
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* doy estilo a todo*/
+
+article {
+    width: 170px;
+    height: 140px;
+    margin: 5px;
+    padding: 20px;
+    float: left;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q::before, q::after {
+    content: '';
+    content: none;
+}
+
+button {
+    margin: 3px;
+    padding: 2px;
+    background-color: #F16F51;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: -4px 4px 2px #fff;
+}
+
+header {
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #4b4949;
+    height: 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+input {
+    margin: 3px auto;
+    width: 100px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0; 
+}
+
+/* *** id *** */
+
+#main-container{
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+#users-table {
+    margin: 10px auto;
+    font-weight: normal;
+    font-size: 11px;
+    width: 100%;
+}
+
+#users-table th {
+    padding: 2px;
+    border-bottom: 1px solid #F6F6F6;
+    padding: 2px;
+    font-size: 18px;
+}
+
+#users-table td {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* *** class *** */
+
+.chart-image {
+    width: 50%;
+}
+
+.chart-total {
+    font-size: 30px;
+    text-align: right;
+
+}
+
+.dia {
+    font-size: 40px;;
+}
+
+.double-red {
+    background-color: #F16F51;
+    width: 350px;
+    height: 140px;
+    padding: 20px;
+    float: left;
+}
+
+.fecha {
+    margin-top: 20px;
+}
+
+.green h2 {
+    margin: 3px;
+    text-align: center;
+}
+
+.horario {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+.lista a {
+    color: #FDB45C;
+    text-decoration: none;
+}
+.lista li {
+    margin-bottom: 5px;
+    margin-left: 10px;  
+    margin-top: 5px;  
+}
+
+ol.lista li {
+    list-style-type: decimal;    
+}
+ul.lista li {
+    list-style-type: disc;          
+}
+
+
+
+/* Colores de fondo para los articles*/
+.green {
+    background-color: #13B2A3;
+}
+.red {
+    background-color: #F16F51;
+}
+.yellow {
+    background-color: #FDB45C;
+}
+.lightgrey {
+    background-color: #F6F6F6;
+    color: #000;
+}
+.city-image {
+    background-image: url("santiago.png");
+    background-color: #13B2A3;
+    font-size: 20px;
+}
